@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4088CA1A1E82F42300F5B15B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA191E82F42300F5B15B /* AppDelegate.swift */; };
+		4088CA1C1E82F42300F5B15B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA1B1E82F42300F5B15B /* ViewController.swift */; };
+		4088CA1F1E82F42300F5B15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4088CA1D1E82F42300F5B15B /* Main.storyboard */; };
+		4088CA221E82F42300F5B15B /* Technex18.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA201E82F42300F5B15B /* Technex18.xcdatamodeld */; };
+		4088CA241E82F42300F5B15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4088CA231E82F42300F5B15B /* Assets.xcassets */; };
+		4088CA271E82F42300F5B15B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4088CA251E82F42300F5B15B /* LaunchScreen.storyboard */; };
+		4088CA321E82F42400F5B15B /* Technex18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA311E82F42400F5B15B /* Technex18Tests.swift */; };
+		4088CA3D1E82F42400F5B15B /* Technex18UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA3C1E82F42400F5B15B /* Technex18UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4088CA2E1E82F42400F5B15B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4088CA0E1E82F42200F5B15B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4088CA151E82F42200F5B15B;
+			remoteInfo = Technex18;
+		};
+		4088CA391E82F42400F5B15B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4088CA0E1E82F42200F5B15B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4088CA151E82F42200F5B15B;
+			remoteInfo = Technex18;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4088CA161E82F42300F5B15B /* Technex18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technex18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4088CA191E82F42300F5B15B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4088CA1B1E82F42300F5B15B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4088CA1E1E82F42300F5B15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4088CA211E82F42300F5B15B /* Technex18.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Technex18.xcdatamodel; sourceTree = "<group>"; };
+		4088CA231E82F42300F5B15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4088CA261E82F42300F5B15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4088CA281E82F42300F5B15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4088CA2D1E82F42400F5B15B /* Technex18Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Technex18Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4088CA311E82F42400F5B15B /* Technex18Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technex18Tests.swift; sourceTree = "<group>"; };
+		4088CA331E82F42400F5B15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4088CA381E82F42400F5B15B /* Technex18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Technex18UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4088CA3C1E82F42400F5B15B /* Technex18UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technex18UITests.swift; sourceTree = "<group>"; };
+		4088CA3E1E82F42400F5B15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4088CA131E82F42200F5B15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4088CA2A1E82F42400F5B15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4088CA351E82F42400F5B15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4088CA0D1E82F42200F5B15B = {
+			isa = PBXGroup;
+			children = (
+				4088CA181E82F42300F5B15B /* Technex18 */,
+				4088CA301E82F42400F5B15B /* Technex18Tests */,
+				4088CA3B1E82F42400F5B15B /* Technex18UITests */,
+				4088CA171E82F42300F5B15B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4088CA171E82F42300F5B15B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4088CA161E82F42300F5B15B /* Technex18.app */,
+				4088CA2D1E82F42400F5B15B /* Technex18Tests.xctest */,
+				4088CA381E82F42400F5B15B /* Technex18UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4088CA181E82F42300F5B15B /* Technex18 */ = {
+			isa = PBXGroup;
+			children = (
+				4088CA191E82F42300F5B15B /* AppDelegate.swift */,
+				4088CA1B1E82F42300F5B15B /* ViewController.swift */,
+				4088CA1D1E82F42300F5B15B /* Main.storyboard */,
+				4088CA231E82F42300F5B15B /* Assets.xcassets */,
+				4088CA251E82F42300F5B15B /* LaunchScreen.storyboard */,
+				4088CA281E82F42300F5B15B /* Info.plist */,
+				4088CA201E82F42300F5B15B /* Technex18.xcdatamodeld */,
+			);
+			path = Technex18;
+			sourceTree = "<group>";
+		};
+		4088CA301E82F42400F5B15B /* Technex18Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4088CA311E82F42400F5B15B /* Technex18Tests.swift */,
+				4088CA331E82F42400F5B15B /* Info.plist */,
+			);
+			path = Technex18Tests;
+			sourceTree = "<group>";
+		};
+		4088CA3B1E82F42400F5B15B /* Technex18UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4088CA3C1E82F42400F5B15B /* Technex18UITests.swift */,
+				4088CA3E1E82F42400F5B15B /* Info.plist */,
+			);
+			path = Technex18UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4088CA151E82F42200F5B15B /* Technex18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4088CA411E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18" */;
+			buildPhases = (
+				4088CA121E82F42200F5B15B /* Sources */,
+				4088CA131E82F42200F5B15B /* Frameworks */,
+				4088CA141E82F42200F5B15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Technex18;
+			productName = Technex18;
+			productReference = 4088CA161E82F42300F5B15B /* Technex18.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4088CA2C1E82F42400F5B15B /* Technex18Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4088CA441E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18Tests" */;
+			buildPhases = (
+				4088CA291E82F42400F5B15B /* Sources */,
+				4088CA2A1E82F42400F5B15B /* Frameworks */,
+				4088CA2B1E82F42400F5B15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4088CA2F1E82F42400F5B15B /* PBXTargetDependency */,
+			);
+			name = Technex18Tests;
+			productName = Technex18Tests;
+			productReference = 4088CA2D1E82F42400F5B15B /* Technex18Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4088CA371E82F42400F5B15B /* Technex18UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4088CA471E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18UITests" */;
+			buildPhases = (
+				4088CA341E82F42400F5B15B /* Sources */,
+				4088CA351E82F42400F5B15B /* Frameworks */,
+				4088CA361E82F42400F5B15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4088CA3A1E82F42400F5B15B /* PBXTargetDependency */,
+			);
+			name = Technex18UITests;
+			productName = Technex18UITests;
+			productReference = 4088CA381E82F42400F5B15B /* Technex18UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4088CA0E1E82F42200F5B15B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jogendra Singh";
+				TargetAttributes = {
+					4088CA151E82F42200F5B15B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4088CA2C1E82F42400F5B15B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4088CA151E82F42200F5B15B;
+					};
+					4088CA371E82F42400F5B15B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4088CA151E82F42200F5B15B;
+					};
+				};
+			};
+			buildConfigurationList = 4088CA111E82F42200F5B15B /* Build configuration list for PBXProject "Technex18" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4088CA0D1E82F42200F5B15B;
+			productRefGroup = 4088CA171E82F42300F5B15B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4088CA151E82F42200F5B15B /* Technex18 */,
+				4088CA2C1E82F42400F5B15B /* Technex18Tests */,
+				4088CA371E82F42400F5B15B /* Technex18UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4088CA141E82F42200F5B15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4088CA271E82F42300F5B15B /* LaunchScreen.storyboard in Resources */,
+				4088CA241E82F42300F5B15B /* Assets.xcassets in Resources */,
+				4088CA1F1E82F42300F5B15B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4088CA2B1E82F42400F5B15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4088CA361E82F42400F5B15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4088CA121E82F42200F5B15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4088CA221E82F42300F5B15B /* Technex18.xcdatamodeld in Sources */,
+				4088CA1C1E82F42300F5B15B /* ViewController.swift in Sources */,
+				4088CA1A1E82F42300F5B15B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4088CA291E82F42400F5B15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4088CA321E82F42400F5B15B /* Technex18Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4088CA341E82F42400F5B15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4088CA3D1E82F42400F5B15B /* Technex18UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4088CA2F1E82F42400F5B15B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4088CA151E82F42200F5B15B /* Technex18 */;
+			targetProxy = 4088CA2E1E82F42400F5B15B /* PBXContainerItemProxy */;
+		};
+		4088CA3A1E82F42400F5B15B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4088CA151E82F42200F5B15B /* Technex18 */;
+			targetProxy = 4088CA391E82F42400F5B15B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4088CA1D1E82F42300F5B15B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4088CA1E1E82F42300F5B15B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4088CA251E82F42300F5B15B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4088CA261E82F42300F5B15B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4088CA3F1E82F42400F5B15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4088CA401E82F42400F5B15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4088CA421E82F42400F5B15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Technex18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4088CA431E82F42400F5B15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Technex18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4088CA451E82F42400F5B15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Technex18Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Technex18.app/Technex18";
+			};
+			name = Debug;
+		};
+		4088CA461E82F42400F5B15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Technex18Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Technex18.app/Technex18";
+			};
+			name = Release;
+		};
+		4088CA481E82F42400F5B15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Technex18UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Technex18;
+			};
+			name = Debug;
+		};
+		4088CA491E82F42400F5B15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Technex18UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Technex18;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4088CA111E82F42200F5B15B /* Build configuration list for PBXProject "Technex18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4088CA3F1E82F42400F5B15B /* Debug */,
+				4088CA401E82F42400F5B15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4088CA411E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4088CA421E82F42400F5B15B /* Debug */,
+				4088CA431E82F42400F5B15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4088CA441E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4088CA451E82F42400F5B15B /* Debug */,
+				4088CA461E82F42400F5B15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4088CA471E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4088CA481E82F42400F5B15B /* Debug */,
+				4088CA491E82F42400F5B15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4088CA201E82F42300F5B15B /* Technex18.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4088CA211E82F42300F5B15B /* Technex18.xcdatamodel */,
+			);
+			currentVersion = 4088CA211E82F42300F5B15B /* Technex18.xcdatamodel */;
+			path = Technex18.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4088CA0E1E82F42200F5B15B /* Project object */;
+}

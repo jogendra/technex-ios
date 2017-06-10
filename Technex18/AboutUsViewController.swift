@@ -73,7 +73,7 @@ class AboutUsViewController: UIViewController, MFMailComposeViewControllerDelega
         
         mailComposeVC.setToRecipients(["jogendra.kumar.phy15@iitbhu.ac.in"])
         mailComposeVC.setSubject("Technex '18 iOS App Feedback")
-        mailComposeVC.setMessageBody("Hi Jogendra!\n\nI would like to share the following feedback:\n\n", isHTML: false)
+        mailComposeVC.setMessageBody("Hi Jogendra!\n\nI would like to share the following feedback:\n\n\n", isHTML: false)
         
         return mailComposeVC
     }

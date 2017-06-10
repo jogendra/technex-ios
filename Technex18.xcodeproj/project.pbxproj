@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40141A391E845444009F29F8 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40141A381E845444009F29F8 /* UIButtonX.swift */; };
+		40317BD21ED02E620098EE04 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40317BD11ED02E620098EE04 /* AboutUsViewController.swift */; };
+		40317BD51ED0325E0098EE04 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40317BD41ED0325D0098EE04 /* MessageUI.framework */; };
+		405BB68E1E85B79B004DA3F3 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BB68D1E85B79B004DA3F3 /* SideBarTableViewController.swift */; };
+		405BB6901E85B8C7004DA3F3 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BB68F1E85B8C7004DA3F3 /* SideBar.swift */; };
+		4063C3C61E868254002CA9FC /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063C3C51E868254002CA9FC /* DesignableTextField.swift */; };
+		406809E71EC59E95006BF77B /* UserTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406809E61EC59E95006BF77B /* UserTabViewController.swift */; };
+		406809E91EC5D616006BF77B /* DesignableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406809E81EC5D616006BF77B /* DesignableImage.swift */; };
+		406809EB1EC61C4D006BF77B /* DeginableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406809EA1EC61C4D006BF77B /* DeginableView.swift */; };
+		406A56261E8D589F003B5A4F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A56251E8D589F003B5A4F /* DesignableButton.swift */; };
+		406A56281E8E33FA003B5A4F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A56271E8E33FA003B5A4F /* ResetPasswordViewController.swift */; };
 		4088CA1A1E82F42300F5B15B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA191E82F42300F5B15B /* AppDelegate.swift */; };
 		4088CA1C1E82F42300F5B15B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA1B1E82F42300F5B15B /* ViewController.swift */; };
 		4088CA1F1E82F42300F5B15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4088CA1D1E82F42300F5B15B /* Main.storyboard */; };
@@ -15,6 +26,11 @@
 		4088CA271E82F42300F5B15B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4088CA251E82F42300F5B15B /* LaunchScreen.storyboard */; };
 		4088CA321E82F42400F5B15B /* Technex18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA311E82F42400F5B15B /* Technex18Tests.swift */; };
 		4088CA3D1E82F42400F5B15B /* Technex18UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA3C1E82F42400F5B15B /* Technex18UITests.swift */; };
+		4088CA4B1E82F5DB00F5B15B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA4A1E82F5DB00F5B15B /* HomePageViewController.swift */; };
+		4088CA4D1E82F5FA00F5B15B /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA4C1E82F5FA00F5B15B /* LoginPageViewController.swift */; };
+		4088CA4F1E82F61100F5B15B /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA4E1E82F61100F5B15B /* RegisterPageViewController.swift */; };
+		40BCB30B1E8523A2004EF479 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCB30A1E8523A2004EF479 /* RoundButton.swift */; };
+		40EABFE21E8D498C001BEB64 /* DesignableUILable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EABFE11E8D498C001BEB64 /* DesignableUILable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40141A381E845444009F29F8 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonX.swift; path = "../../../DesignableX-master/DesignableXTesting/DesignableXTesting/DesignableX/UIButtonX.swift"; sourceTree = "<group>"; };
+		40317BD11ED02E620098EE04 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		40317BD41ED0325D0098EE04 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		40590FD01E8FC2DB004778CF /* Technex18.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Technex18.entitlements; sourceTree = "<group>"; };
+		405BB68D1E85B79B004DA3F3 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		405BB68F1E85B8C7004DA3F3 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		4063C3C51E868254002CA9FC /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		406809E61EC59E95006BF77B /* UserTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTabViewController.swift; sourceTree = "<group>"; };
+		406809E81EC5D616006BF77B /* DesignableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImage.swift; sourceTree = "<group>"; };
+		406809EA1EC61C4D006BF77B /* DeginableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeginableView.swift; sourceTree = "<group>"; };
+		406A56251E8D589F003B5A4F /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		406A56271E8E33FA003B5A4F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		4088CA161E82F42300F5B15B /* Technex18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technex18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4088CA191E82F42300F5B15B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4088CA1B1E82F42300F5B15B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +77,11 @@
 		4088CA381E82F42400F5B15B /* Technex18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Technex18UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4088CA3C1E82F42400F5B15B /* Technex18UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technex18UITests.swift; sourceTree = "<group>"; };
 		4088CA3E1E82F42400F5B15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4088CA4A1E82F5DB00F5B15B /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		4088CA4C1E82F5FA00F5B15B /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		4088CA4E1E82F61100F5B15B /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		40BCB30A1E8523A2004EF479 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		40EABFE11E8D498C001BEB64 /* DesignableUILable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUILable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40317BD51ED0325E0098EE04 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +110,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40317BD31ED0325D0098EE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40317BD41ED0325D0098EE04 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4049BD791EEC181E0026BAE9 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				40141A381E845444009F29F8 /* UIButtonX.swift */,
+				40BCB30A1E8523A2004EF479 /* RoundButton.swift */,
+				4063C3C51E868254002CA9FC /* DesignableTextField.swift */,
+				40EABFE11E8D498C001BEB64 /* DesignableUILable.swift */,
+				406A56251E8D589F003B5A4F /* DesignableButton.swift */,
+				406809E81EC5D616006BF77B /* DesignableImage.swift */,
+				406809EA1EC61C4D006BF77B /* DeginableView.swift */,
+			);
+			name = DesignableX;
+			sourceTree = "<group>";
+		};
+		4049BD7A1EEC18570026BAE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4088CA1B1E82F42300F5B15B /* ViewController.swift */,
+				4088CA4A1E82F5DB00F5B15B /* HomePageViewController.swift */,
+				4088CA4C1E82F5FA00F5B15B /* LoginPageViewController.swift */,
+				4088CA4E1E82F61100F5B15B /* RegisterPageViewController.swift */,
+				406A56271E8E33FA003B5A4F /* ResetPasswordViewController.swift */,
+				406809E61EC59E95006BF77B /* UserTabViewController.swift */,
+				40317BD11ED02E620098EE04 /* AboutUsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4049BD7B1EEC186E0026BAE9 /* Side Bar */ = {
+			isa = PBXGroup;
+			children = (
+				405BB68D1E85B79B004DA3F3 /* SideBarTableViewController.swift */,
+				405BB68F1E85B8C7004DA3F3 /* SideBar.swift */,
+			);
+			name = "Side Bar";
+			sourceTree = "<group>";
+		};
+		4049BD7C1EEC189F0026BAE9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4088CA1D1E82F42300F5B15B /* Main.storyboard */,
+				4088CA251E82F42300F5B15B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		4088CA0D1E82F42200F5B15B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +171,7 @@
 				4088CA301E82F42400F5B15B /* Technex18Tests */,
 				4088CA3B1E82F42400F5B15B /* Technex18UITests */,
 				4088CA171E82F42300F5B15B /* Products */,
+				40317BD31ED0325D0098EE04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +188,13 @@
 		4088CA181E82F42300F5B15B /* Technex18 */ = {
 			isa = PBXGroup;
 			children = (
+				40590FD01E8FC2DB004778CF /* Technex18.entitlements */,
 				4088CA191E82F42300F5B15B /* AppDelegate.swift */,
-				4088CA1B1E82F42300F5B15B /* ViewController.swift */,
-				4088CA1D1E82F42300F5B15B /* Main.storyboard */,
+				4049BD7B1EEC186E0026BAE9 /* Side Bar */,
+				4049BD791EEC181E0026BAE9 /* DesignableX */,
+				4049BD7C1EEC189F0026BAE9 /* Storyboards */,
+				4049BD7A1EEC18570026BAE9 /* Controllers */,
 				4088CA231E82F42300F5B15B /* Assets.xcassets */,
-				4088CA251E82F42300F5B15B /* LaunchScreen.storyboard */,
 				4088CA281E82F42300F5B15B /* Info.plist */,
 				4088CA201E82F42300F5B15B /* Technex18.xcdatamodeld */,
 			);
@@ -191,12 +282,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jogendra Singh";
 				TargetAttributes = {
 					4088CA151E82F42200F5B15B = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7P4K4M8A4Q;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					4088CA2C1E82F42400F5B15B = {
 						CreatedOnToolsVersion = 8.1;
@@ -262,9 +359,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406809EB1EC61C4D006BF77B /* DeginableView.swift in Sources */,
+				405BB6901E85B8C7004DA3F3 /* SideBar.swift in Sources */,
+				406809E91EC5D616006BF77B /* DesignableImage.swift in Sources */,
+				40BCB30B1E8523A2004EF479 /* RoundButton.swift in Sources */,
+				40EABFE21E8D498C001BEB64 /* DesignableUILable.swift in Sources */,
+				405BB68E1E85B79B004DA3F3 /* SideBarTableViewController.swift in Sources */,
+				4088CA4B1E82F5DB00F5B15B /* HomePageViewController.swift in Sources */,
+				4063C3C61E868254002CA9FC /* DesignableTextField.swift in Sources */,
 				4088CA221E82F42300F5B15B /* Technex18.xcdatamodeld in Sources */,
+				4088CA4F1E82F61100F5B15B /* RegisterPageViewController.swift in Sources */,
+				40317BD21ED02E620098EE04 /* AboutUsViewController.swift in Sources */,
+				40141A391E845444009F29F8 /* UIButtonX.swift in Sources */,
 				4088CA1C1E82F42300F5B15B /* ViewController.swift in Sources */,
+				406A56261E8D589F003B5A4F /* DesignableButton.swift in Sources */,
+				406809E71EC59E95006BF77B /* UserTabViewController.swift in Sources */,
+				4088CA4D1E82F5FA00F5B15B /* LoginPageViewController.swift in Sources */,
 				4088CA1A1E82F42300F5B15B /* AppDelegate.swift in Sources */,
+				406A56281E8E33FA003B5A4F /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +449,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +499,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -414,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
 				INFOPLIST_FILE = Technex18/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18;
@@ -426,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
 				INFOPLIST_FILE = Technex18/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jog.Technex18;
@@ -507,6 +623,7 @@
 				4088CA431E82F42400F5B15B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4088CA441E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +632,7 @@
 				4088CA461E82F42400F5B15B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4088CA471E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +641,7 @@
 				4088CA491E82F42400F5B15B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

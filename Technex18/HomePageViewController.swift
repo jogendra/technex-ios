@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class HomePageViewController: UIViewController, SideBarDelegate {
 
@@ -36,17 +37,28 @@ class HomePageViewController: UIViewController, SideBarDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         
-        let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn");
+//        let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn");
+//        
+//        if (!isUserLoggedIn){
+//            self.performSegue(withIdentifier: "loginView", sender: self);
+//            
+//        }
+//        else{
+//        
+//            self.performSegue(withIdentifier: "mainPage", sender: self);
+//        }
         
-        if (!isUserLoggedIn){
+        //firebase user handles
+        if(Auth.auth().currentUser?.uid == nil){
             self.performSegue(withIdentifier: "loginView", sender: self);
             
         }
         else{
-        
+            
             self.performSegue(withIdentifier: "mainPage", sender: self);
         }
-    }
+        
+}
 
     @IBAction func toggleMenu(_ sender: Any) {
         

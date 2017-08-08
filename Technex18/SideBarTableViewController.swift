@@ -17,6 +17,8 @@ class SideBarTableViewController: UITableViewController {
     var delegate:SideBarTableViewControllerDelegate?
     var tableData:Array<String> = []
     
+    let icons = ["Developer_25","Feedback_25","AppleAppStore_25","Subscription_25","Developer_25","Website_25","Subscription_25","LogoutRoundedUpFilled_25"]
+    
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -35,7 +37,7 @@ class SideBarTableViewController: UITableViewController {
             
             // Configure the cell...
             cell!.backgroundColor = UIColor.clear;
-            cell!.textLabel?.textColor = UIColor.black;
+            cell!.textLabel?.textColor = UIColor.init(red: 100/255, green: 100/255, blue: 100/255, alpha: 1.0);
             cell?.layer.borderWidth = 0.25
             cell?.layer.borderColor = UIColor.gray.cgColor
             
@@ -52,6 +54,13 @@ class SideBarTableViewController: UITableViewController {
 //            itemImageView.image = itemImage;
 //            cell?.addSubview(itemImageView);
         }
+        
+        cell?.imageView?.bounds = CGRect(x: 0, y: 0, width: 10, height: 10);
+
+        cell?.imageView?.frame = CGRect(x: 0, y: 0, width: 10, height: 10);
+        cell?.imageView?.contentMode = .scaleAspectFit
+        cell?.imageView?.image = UIImage(named: icons[indexPath.row] )
+        
         
         cell!.textLabel?.text = tableData[indexPath.row]
         

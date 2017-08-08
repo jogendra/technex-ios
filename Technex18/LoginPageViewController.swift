@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginPageViewController: UIViewController, UITextFieldDelegate {
     
@@ -50,30 +51,52 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func loginButtonTapped(_ sender: Any) {
         
-        let userEmail = userEmailTextField.text;
-        let userPassword = userPasswordTextField.text;
-        let userEmailStored = UserDefaults.standard.string(forKey: "userEmail");
-        let userPasswordStored = UserDefaults.standard.string(forKey: "userPassword");
-        
-        if ((userEmail?.isEmpty)! || (userPassword?.isEmpty)!){
-            displayMyAlertMessage(userMessage: "All fields are required!");
-            return;
-        }
-        
-        if (userEmailStored == userEmail){
-            if (userPasswordStored == userPassword){
-                //Login is successfull
-                UserDefaults.standard.set(true, forKey: "isUserLoggedIn");
-                UserDefaults.standard.synchronize();
+        guard let userEmail = userEmailTextField.text,let
+            userPassword = userPasswordTextField.text
+            else{
                 
-                self.dismiss(animated: true, completion: nil);
-            }
+                print("Form is invalid!")
+                return
         }
-        if ((userEmailStored != userEmail) || (userPasswordStored != userPassword)){
+        
+        Auth.auth().signIn(withEmail: userEmail, password: userPassword, completion: {(user,error) in
+            if error != nil{
             
-            displayMyAlertMessage(userMessage: "Incorrect username or password!");
-            return;
-        }
+                print(error)
+                return
+            }
+            
+        });
+        UserDefaults.standard.set(true, forKey: "isUserLoggedIn");
+        UserDefaults.standard.synchronize();
+        self.dismiss(animated: true, completion: nil)
+        
+        
+        
+//        let userEmail = userEmailTextField.text;
+//        let userPassword = userPasswordTextField.text;
+//        let userEmailStored = UserDefaults.standard.string(forKey: "userEmail");
+//        let userPasswordStored = UserDefaults.standard.string(forKey: "userPassword");
+//        
+//        if ((userEmail?.isEmpty)! || (userPassword?.isEmpty)!){
+//            displayMyAlertMessage(userMessage: "All fields are required!");
+//            return;
+//        }
+//        
+//        if (userEmailStored == userEmail){
+//            if (userPasswordStored == userPassword){
+//                //Login is successfull
+//                UserDefaults.standard.set(true, forKey: "isUserLoggedIn");
+//                UserDefaults.standard.synchronize();
+//                
+//                self.dismiss(animated: true, completion: nil);
+//            }
+//        }
+//        if ((userEmailStored != userEmail) || (userPasswordStored != userPassword)){
+//            
+//            displayMyAlertMessage(userMessage: "Incorrect username or password!");
+//            return;
+//        }
     }
     
     //Alert message
@@ -111,5 +134,22 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    @IBAction func fbButtonPressed(_ sender: Any) {
+        let fbURLWeb = URL(string: "https://www.facebook.com/jogendra.singh24")
+        let fbURLId = URL(string: "fb://profile/837267429744452")
+        
+        openApplication(fbURLId!,fbURLWeb!)
+    }
+    
+    func openApplication(_ URLId: URL, _ URLWeb:URL ){
+        if(UIApplication.shared.canOpenURL(URLId)){
+            
+            UIApplication.shared.open(URLId, options: [:], completionHandler: nil)
+        }
+        else{
+            
+            UIApplication.shared.open(URLWeb, options: [:], completionHandler: nil)
+        }
+    }
 
 }

@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40141A391E845444009F29F8 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40141A381E845444009F29F8 /* UIButtonX.swift */; };
+		400D8FAC1EFFA27D00FF8D7B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D8FAB1EFFA27D00FF8D7B /* HomeTableViewCell.swift */; };
+		4023C2B51F016E0A00D0E199 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023C2B41F016E0A00D0E199 /* HomeTabViewController.swift */; };
 		40317BD21ED02E620098EE04 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40317BD11ED02E620098EE04 /* AboutUsViewController.swift */; };
 		40317BD51ED0325E0098EE04 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40317BD41ED0325D0098EE04 /* MessageUI.framework */; };
+		404A48581EFEBBA90010BC56 /* HomeTabTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A48571EFEBBA90010BC56 /* HomeTabTableViewController.swift */; };
 		405BB68E1E85B79B004DA3F3 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BB68D1E85B79B004DA3F3 /* SideBarTableViewController.swift */; };
 		405BB6901E85B8C7004DA3F3 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BB68F1E85B8C7004DA3F3 /* SideBar.swift */; };
 		4063C3C61E868254002CA9FC /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063C3C51E868254002CA9FC /* DesignableTextField.swift */; };
@@ -18,6 +20,7 @@
 		406809EB1EC61C4D006BF77B /* DeginableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406809EA1EC61C4D006BF77B /* DeginableView.swift */; };
 		406A56261E8D589F003B5A4F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A56251E8D589F003B5A4F /* DesignableButton.swift */; };
 		406A56281E8E33FA003B5A4F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A56271E8E33FA003B5A4F /* ResetPasswordViewController.swift */; };
+		40784BDC1EF5D9FB009D0BBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40784BDB1EF5D9FA009D0BBC /* GoogleService-Info.plist */; };
 		4088CA1A1E82F42300F5B15B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA191E82F42300F5B15B /* AppDelegate.swift */; };
 		4088CA1C1E82F42300F5B15B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA1B1E82F42300F5B15B /* ViewController.swift */; };
 		4088CA1F1E82F42300F5B15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4088CA1D1E82F42300F5B15B /* Main.storyboard */; };
@@ -29,8 +32,12 @@
 		4088CA4B1E82F5DB00F5B15B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA4A1E82F5DB00F5B15B /* HomePageViewController.swift */; };
 		4088CA4D1E82F5FA00F5B15B /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA4C1E82F5FA00F5B15B /* LoginPageViewController.swift */; };
 		4088CA4F1E82F61100F5B15B /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088CA4E1E82F61100F5B15B /* RegisterPageViewController.swift */; };
+		4094E31B1F08F6D700F8C3C3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094E31A1F08F6D700F8C3C3 /* TabBarViewController.swift */; };
 		40BCB30B1E8523A2004EF479 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCB30A1E8523A2004EF479 /* RoundButton.swift */; };
 		40EABFE21E8D498C001BEB64 /* DesignableUILable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EABFE11E8D498C001BEB64 /* DesignableUILable.swift */; };
+		7C6A93A6520D136E02887095 /* Pods_Technex18.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0F9912660DA5DA82B3AE7 /* Pods_Technex18.framework */; };
+		98B3FC2A3E41B4F1081C9637 /* Pods_Technex18Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8365971D35F715E77F8813 /* Pods_Technex18Tests.framework */; };
+		E07E44EA011D8D3FF4DECEFD /* Pods_Technex18UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF0DB25A301F94085C33D84 /* Pods_Technex18UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +58,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40141A381E845444009F29F8 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonX.swift; path = "../../../DesignableX-master/DesignableXTesting/DesignableXTesting/DesignableX/UIButtonX.swift"; sourceTree = "<group>"; };
+		3AF0DB25A301F94085C33D84 /* Pods_Technex18UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Technex18UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400D8FAB1EFFA27D00FF8D7B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		4023C2B41F016E0A00D0E199 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		40317BD11ED02E620098EE04 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		40317BD41ED0325D0098EE04 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		404A48571EFEBBA90010BC56 /* HomeTabTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabTableViewController.swift; sourceTree = "<group>"; };
 		40590FD01E8FC2DB004778CF /* Technex18.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Technex18.entitlements; sourceTree = "<group>"; };
 		405BB68D1E85B79B004DA3F3 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
 		405BB68F1E85B8C7004DA3F3 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
@@ -63,6 +73,7 @@
 		406809EA1EC61C4D006BF77B /* DeginableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeginableView.swift; sourceTree = "<group>"; };
 		406A56251E8D589F003B5A4F /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		406A56271E8E33FA003B5A4F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		40784BDB1EF5D9FA009D0BBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4088CA161E82F42300F5B15B /* Technex18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technex18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4088CA191E82F42300F5B15B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4088CA1B1E82F42300F5B15B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,8 +91,17 @@
 		4088CA4A1E82F5DB00F5B15B /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		4088CA4C1E82F5FA00F5B15B /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		4088CA4E1E82F61100F5B15B /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		4094E31A1F08F6D700F8C3C3 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		40BCB30A1E8523A2004EF479 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		40EABFE11E8D498C001BEB64 /* DesignableUILable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUILable.swift; sourceTree = "<group>"; };
+		875CABB182B00434376C086C /* Pods-Technex18UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technex18UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Technex18UITests/Pods-Technex18UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B8EF59706DA3B79DBB9AE14 /* Pods-Technex18.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technex18.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Technex18/Pods-Technex18.debug.xcconfig"; sourceTree = "<group>"; };
+		91AADDC6D710629F5AE7AD38 /* Pods-Technex18Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technex18Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Technex18Tests/Pods-Technex18Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB01A9E76BFBA2DA5545A86F /* Pods-Technex18UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technex18UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Technex18UITests/Pods-Technex18UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C0F9912660DA5DA82B3AE7 /* Pods_Technex18.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Technex18.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8365971D35F715E77F8813 /* Pods_Technex18Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Technex18Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E6323544202B825853794B /* Pods-Technex18.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technex18.release.xcconfig"; path = "Pods/Target Support Files/Pods-Technex18/Pods-Technex18.release.xcconfig"; sourceTree = "<group>"; };
+		E846DFE453DB56E0DD0DA754 /* Pods-Technex18Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technex18Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Technex18Tests/Pods-Technex18Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40317BD51ED0325E0098EE04 /* MessageUI.framework in Frameworks */,
+				7C6A93A6520D136E02887095 /* Pods_Technex18.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B3FC2A3E41B4F1081C9637 /* Pods_Technex18Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,16 +126,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07E44EA011D8D3FF4DECEFD /* Pods_Technex18UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		400D8FAD1EFFA28700FF8D7B /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				400D8FAB1EFFA27D00FF8D7B /* HomeTableViewCell.swift */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
 		40317BD31ED0325D0098EE04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				40317BD41ED0325D0098EE04 /* MessageUI.framework */,
+				C7C0F9912660DA5DA82B3AE7 /* Pods_Technex18.framework */,
+				CB8365971D35F715E77F8813 /* Pods_Technex18Tests.framework */,
+				3AF0DB25A301F94085C33D84 /* Pods_Technex18UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,7 +155,6 @@
 		4049BD791EEC181E0026BAE9 /* DesignableX */ = {
 			isa = PBXGroup;
 			children = (
-				40141A381E845444009F29F8 /* UIButtonX.swift */,
 				40BCB30A1E8523A2004EF479 /* RoundButton.swift */,
 				4063C3C51E868254002CA9FC /* DesignableTextField.swift */,
 				40EABFE11E8D498C001BEB64 /* DesignableUILable.swift */,
@@ -142,6 +175,9 @@
 				406A56271E8E33FA003B5A4F /* ResetPasswordViewController.swift */,
 				406809E61EC59E95006BF77B /* UserTabViewController.swift */,
 				40317BD11ED02E620098EE04 /* AboutUsViewController.swift */,
+				404A48571EFEBBA90010BC56 /* HomeTabTableViewController.swift */,
+				4023C2B41F016E0A00D0E199 /* HomeTabViewController.swift */,
+				4094E31A1F08F6D700F8C3C3 /* TabBarViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +208,7 @@
 				4088CA3B1E82F42400F5B15B /* Technex18UITests */,
 				4088CA171E82F42300F5B15B /* Products */,
 				40317BD31ED0325D0098EE04 /* Frameworks */,
+				B10DC9887AD569F336CC8321 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +225,7 @@
 		4088CA181E82F42300F5B15B /* Technex18 */ = {
 			isa = PBXGroup;
 			children = (
+				40784BDB1EF5D9FA009D0BBC /* GoogleService-Info.plist */,
 				40590FD01E8FC2DB004778CF /* Technex18.entitlements */,
 				4088CA191E82F42300F5B15B /* AppDelegate.swift */,
 				4049BD7B1EEC186E0026BAE9 /* Side Bar */,
@@ -197,6 +235,7 @@
 				4088CA231E82F42300F5B15B /* Assets.xcassets */,
 				4088CA281E82F42300F5B15B /* Info.plist */,
 				4088CA201E82F42300F5B15B /* Technex18.xcdatamodeld */,
+				400D8FAD1EFFA28700FF8D7B /* TableCells */,
 			);
 			path = Technex18;
 			sourceTree = "<group>";
@@ -219,6 +258,19 @@
 			path = Technex18UITests;
 			sourceTree = "<group>";
 		};
+		B10DC9887AD569F336CC8321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B8EF59706DA3B79DBB9AE14 /* Pods-Technex18.debug.xcconfig */,
+				E4E6323544202B825853794B /* Pods-Technex18.release.xcconfig */,
+				E846DFE453DB56E0DD0DA754 /* Pods-Technex18Tests.debug.xcconfig */,
+				91AADDC6D710629F5AE7AD38 /* Pods-Technex18Tests.release.xcconfig */,
+				AB01A9E76BFBA2DA5545A86F /* Pods-Technex18UITests.debug.xcconfig */,
+				875CABB182B00434376C086C /* Pods-Technex18UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4088CA411E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18" */;
 			buildPhases = (
+				027ACE0EA639E3C4D7788670 /* [CP] Check Pods Manifest.lock */,
 				4088CA121E82F42200F5B15B /* Sources */,
 				4088CA131E82F42200F5B15B /* Frameworks */,
 				4088CA141E82F42200F5B15B /* Resources */,
+				6969E448F1E42D2C9C7F6130 /* [CP] Embed Pods Frameworks */,
+				475D8C49A8723ACF1C315C3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4088CA441E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18Tests" */;
 			buildPhases = (
+				01294368C69107450862C3C6 /* [CP] Check Pods Manifest.lock */,
 				4088CA291E82F42400F5B15B /* Sources */,
 				4088CA2A1E82F42400F5B15B /* Frameworks */,
 				4088CA2B1E82F42400F5B15B /* Resources */,
+				13EE9237D56E33F20E510C98 /* [CP] Embed Pods Frameworks */,
+				71666E6E28FEC27658E3ECF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4088CA471E82F42400F5B15B /* Build configuration list for PBXNativeTarget "Technex18UITests" */;
 			buildPhases = (
+				DEB7D2E62FA739FC733679AD /* [CP] Check Pods Manifest.lock */,
 				4088CA341E82F42400F5B15B /* Sources */,
 				4088CA351E82F42400F5B15B /* Frameworks */,
 				4088CA361E82F42400F5B15B /* Resources */,
+				3B70F3ED2BBF61A6D33A44B0 /* [CP] Embed Pods Frameworks */,
+				F15C69983FEC1077E579E9AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4088CA271E82F42300F5B15B /* LaunchScreen.storyboard in Resources */,
+				40784BDC1EF5D9FB009D0BBC /* GoogleService-Info.plist in Resources */,
 				4088CA241E82F42300F5B15B /* Assets.xcassets in Resources */,
 				4088CA1F1E82F42300F5B15B /* Main.storyboard in Resources */,
 			);
@@ -354,6 +416,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01294368C69107450862C3C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		027ACE0EA639E3C4D7788670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		13EE9237D56E33F20E510C98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Technex18Tests/Pods-Technex18Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B70F3ED2BBF61A6D33A44B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Technex18UITests/Pods-Technex18UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		475D8C49A8723ACF1C315C3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Technex18/Pods-Technex18-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6969E448F1E42D2C9C7F6130 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Technex18/Pods-Technex18-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71666E6E28FEC27658E3ECF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Technex18Tests/Pods-Technex18Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB7D2E62FA739FC733679AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F15C69983FEC1077E579E9AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Technex18UITests/Pods-Technex18UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4088CA121E82F42200F5B15B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -361,19 +561,22 @@
 			files = (
 				406809EB1EC61C4D006BF77B /* DeginableView.swift in Sources */,
 				405BB6901E85B8C7004DA3F3 /* SideBar.swift in Sources */,
+				4094E31B1F08F6D700F8C3C3 /* TabBarViewController.swift in Sources */,
 				406809E91EC5D616006BF77B /* DesignableImage.swift in Sources */,
 				40BCB30B1E8523A2004EF479 /* RoundButton.swift in Sources */,
+				404A48581EFEBBA90010BC56 /* HomeTabTableViewController.swift in Sources */,
 				40EABFE21E8D498C001BEB64 /* DesignableUILable.swift in Sources */,
 				405BB68E1E85B79B004DA3F3 /* SideBarTableViewController.swift in Sources */,
 				4088CA4B1E82F5DB00F5B15B /* HomePageViewController.swift in Sources */,
 				4063C3C61E868254002CA9FC /* DesignableTextField.swift in Sources */,
+				400D8FAC1EFFA27D00FF8D7B /* HomeTableViewCell.swift in Sources */,
 				4088CA221E82F42300F5B15B /* Technex18.xcdatamodeld in Sources */,
 				4088CA4F1E82F61100F5B15B /* RegisterPageViewController.swift in Sources */,
 				40317BD21ED02E620098EE04 /* AboutUsViewController.swift in Sources */,
-				40141A391E845444009F29F8 /* UIButtonX.swift in Sources */,
 				4088CA1C1E82F42300F5B15B /* ViewController.swift in Sources */,
 				406A56261E8D589F003B5A4F /* DesignableButton.swift in Sources */,
 				406809E71EC59E95006BF77B /* UserTabViewController.swift in Sources */,
+				4023C2B51F016E0A00D0E199 /* HomeTabViewController.swift in Sources */,
 				4088CA4D1E82F5FA00F5B15B /* LoginPageViewController.swift in Sources */,
 				4088CA1A1E82F42300F5B15B /* AppDelegate.swift in Sources */,
 				406A56281E8E33FA003B5A4F /* ResetPasswordViewController.swift in Sources */,
@@ -526,6 +729,7 @@
 		};
 		4088CA421E82F42400F5B15B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8EF59706DA3B79DBB9AE14 /* Pods-Technex18.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
@@ -539,6 +743,7 @@
 		};
 		4088CA431E82F42400F5B15B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E6323544202B825853794B /* Pods-Technex18.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
@@ -552,6 +757,7 @@
 		};
 		4088CA451E82F42400F5B15B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E846DFE453DB56E0DD0DA754 /* Pods-Technex18Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -566,6 +772,7 @@
 		};
 		4088CA461E82F42400F5B15B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AADDC6D710629F5AE7AD38 /* Pods-Technex18Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +787,7 @@
 		};
 		4088CA481E82F42400F5B15B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB01A9E76BFBA2DA5545A86F /* Pods-Technex18UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Technex18UITests/Info.plist;
@@ -593,6 +801,7 @@
 		};
 		4088CA491E82F42400F5B15B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875CABB182B00434376C086C /* Pods-Technex18UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Technex18UITests/Info.plist;

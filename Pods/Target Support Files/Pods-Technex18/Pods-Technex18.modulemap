@@ -1,0 +1,6 @@
+framework module Pods_Technex18 {
+  umbrella header "Pods-Technex18-umbrella.h"
+
+  export *
+  module * { export * }
+}

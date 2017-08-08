@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
 class ResetPasswordViewController: UIViewController {
 
@@ -32,8 +35,20 @@ class ResetPasswordViewController: UIViewController {
         if(userEmail?.isEmpty)!{
             displayMyAlertMessage(userMessage: "Please enter email !");
             
-        }
+        }else{
+        Auth.auth().sendPasswordReset(withEmail: userEmail!, completion: { error in
+            
+            if error != nil{
+            
+                print(error)
+            }
+            else{
+            
+                self.displayMyAlertMessage(userMessage: "Password reset link has been sent to you.")
+            }
         
+        })
+    }
     }
 
     @IBAction func cancleButton(_ sender: Any) {

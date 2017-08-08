@@ -8,6 +8,7 @@
 
 import UIKit
 import MessageUI
+import Firebase
 
 class UserTabViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, SideBarDelegate, MFMailComposeViewControllerDelegate {
 
@@ -15,15 +16,19 @@ class UserTabViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     @IBOutlet weak var uploadButtonOutlet: DesignableButton!
     
+    @IBOutlet weak var userName: UILabel!
     //    import sidebar class
     var sidebar:SideBar = SideBar()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //status bar color
+        UIApplication.shared.statusBarStyle = .default
         
         //sidebar
-        sidebar = SideBar(sourceView: self.view, menuItems: ["About Us", "Send Us Feedback", "Rate Us", "ITEM4", "ITEM5", "ITEM6", "ITEM7", "Logout",]);
+        sidebar = SideBar(sourceView: self.view, menuItems: ["About Us", "Send Feedback", "Rate Us", "ITEM4", "ITEM5", "Visit Website", "Subscribe", "Logout",]);
+
         sidebar.delegate = self;
 
         // Do any additional setup after loading the view.
@@ -34,15 +39,32 @@ class UserTabViewController: UIViewController, UIImagePickerControllerDelegate, 
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func userInfo(){
+    
+        let uid = Auth.auth().currentUser?.uid
+        Database.database().reference().child("users").child(uid!).observeSingleEvent(of: .value, with: { (snapshot) in
+            if let dictionary = snapshot.value as? [String:AnyObject]{
+            
+                self.userName.text = dictionary["name"] as? String
+            }
+        })
+    }
 
     @IBAction func userLogout(_ sender: Any) {
+        
+        
+        do{
+            try Auth.auth().signOut()
+        } catch let logoutError{
+            print(logoutError)
+        }
         
         UserDefaults.standard.set(false, forKey: "isUserLoggedIn");
         UserDefaults.standard.synchronize();
         self.performSegue(withIdentifier: "backToLogin", sender: self);
         
     }
-    
     
     @IBAction func userImageButton(_ sender: Any) {
         
@@ -144,6 +166,18 @@ class UserTabViewController: UIViewController, UIImagePickerControllerDelegate, 
             
             present(alertController, animated: true, completion: nil)
 
+            break
+            
+        case 6:
+            let subscribeAlert = UIAlertController(title: "Subscribe here", message: "Subscribe here we will send you new update and features", preferredStyle: .alert)
+            subscribeAlert.addTextField(configurationHandler: {(textField : UITextField!) -> Void in
+                textField.placeholder = "Enter your email"
+                textField.borderStyle = .roundedRect
+                textField.clearButtonMode = .always
+            })
+            subscribeAlert.addAction(UIAlertAction(title: "Subscribe", style: .default, handler: nil))
+            subscribeAlert.addAction(UIAlertAction(title: "Cancle", style: .cancel, handler: nil))
+            self.present(subscribeAlert, animated: true, completion: nil)
             break
             
         case 7:

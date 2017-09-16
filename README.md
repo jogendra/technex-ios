@@ -1,0 +1,2 @@
+# technex-ios
+iOS app for Technex, IIT(BHU) Varanasi.This project is closed before completion for some reasons. You can use this app for learning purpose. Hope this will help you to understand more of ios development. This project is buited in Xocde 8 and used swift 3. If you are using xcode 9 and then Go to built setting and change the built version Swift 4 to swift 3. Before running make sure cocoapods is installed, if not then install pods and run.

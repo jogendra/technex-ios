@@ -10,16 +10,4 @@
 iOS app for Technex, IIT(BHU) Varanasi.This project is closed before completion for some reasons. You can use this app for learning purpose. Hope this will help you to understand more of ios development. This project is buited in Xocde 8 and used swift 3. If you are using xcode 9 and then Go to built setting and change the built version Swift 4 to swift 3. Before running make sure cocoapods is installed, if not then install pods and run.
 
 ## Screenshots
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/1.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/2.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/3.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/4.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/5.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/6.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/7.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/8.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/9.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/10.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/11.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/12.png" width="300">
-<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/13.png" width="300">
+<img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/1.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/2.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/3.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/4.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/5.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/6.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/7.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/8.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/9.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/10.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/11.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/12.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/13.png" width="250">

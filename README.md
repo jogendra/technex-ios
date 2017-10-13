@@ -17,7 +17,7 @@ iOS app for Technex, IIT(BHU) Varanasi.This project is closed before completion 
 ## Demo
 
 ```bash
-cd Technex18
+$ cd Technex18
 pod install
 open Technex18.xcworkspace
 ```

@@ -18,8 +18,8 @@ iOS app for Technex, IIT(BHU) Varanasi.This project is closed before completion 
 
 ```bash
 $ cd Technex18
-pod install
-open Technex18.xcworkspace
+$ pod install
+$ open Technex18.xcworkspace
 ```
 ## Requirements
 - iOS 8.3+

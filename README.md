@@ -5,7 +5,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 [![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://jogendrasingh.me)
+[![HitCount](http://hits.dwyl.io/imjog/technex-ios.svg)](http://hits.dwyl.io/imjog/technex-ios)
 
 iOS app for Technex, IIT(BHU) Varanasi.This project is closed before completion for some reasons. You can use this app for learning purpose. Hope this will help you to understand more of ios development. This project is buited in Xocde 8 and used swift 3. If you are using xcode 9 and then Go to built setting and change the built version Swift 4 to swift 3. Before running make sure cocoapods is installed, if not then install pods and run.
 

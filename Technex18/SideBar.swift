@@ -73,7 +73,7 @@ class SideBar: NSObject, SideBarTableViewControllerDelegate {
         sideBarContainerView.addSubview(sideBarTableViewController.tableView)
     }
     
-    @objc func handleSwipe(_ recognizer:UISwipeGestureRecognizer) {
+    func handleSwipe(_ recognizer:UISwipeGestureRecognizer) {
         if recognizer.direction == UISwipeGestureRecognizerDirection.left {
             showSideBar(false)
             delegate?.SideBarWillClose?()

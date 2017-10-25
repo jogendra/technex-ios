@@ -31,8 +31,8 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         userPasswordTextField.layer.cornerRadius = 5.0;
         
         //change color of placeholder
-        userEmailTextField.attributedPlaceholder = NSAttributedString(string: "USERNAME OR EMAIL", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
-        userPasswordTextField.attributedPlaceholder = NSAttributedString(string: "PASSWORD", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
+        userEmailTextField.attributedPlaceholder = NSAttributedString(string: "USERNAME OR EMAIL", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
+        userPasswordTextField.attributedPlaceholder = NSAttributedString(string: "PASSWORD", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
         
         //textfield left icon and padding
 //        userEmailTextField.leftViewMode = UITextFieldViewMode.always
@@ -60,12 +60,10 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         }
         
         Auth.auth().signIn(withEmail: userEmail, password: userPassword, completion: {(user,error) in
-            if error != nil{
-            
+            if let error = error {
                 print(error)
                 return
             }
-            
         });
         UserDefaults.standard.set(true, forKey: "isUserLoggedIn");
         UserDefaults.standard.synchronize();

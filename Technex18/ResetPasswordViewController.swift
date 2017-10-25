@@ -38,10 +38,12 @@ class ResetPasswordViewController: UIViewController {
         }else{
         Auth.auth().sendPasswordReset(withEmail: userEmail!, completion: { error in
             
-            if let error = error {
+            if error != nil{
+            
                 print(error)
             }
-            else {
+            else{
+            
                 self.displayMyAlertMessage(userMessage: "Password reset link has been sent to you.")
             }
         

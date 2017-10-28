@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lR1-NX-hK2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lR1-NX-hK2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -30,16 +30,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash2" translatesAutoresizingMaskIntoConstraints="NO" id="L8P-ad-kra">
-                                <rect key="frame" x="-50" y="-50" width="475" height="767"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash2" translatesAutoresizingMaskIntoConstraints="NO" id="L8P-ad-kra">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XkR-ob-PlR" firstAttribute="top" secondItem="L8P-ad-kra" secondAttribute="bottom" constant="-50" id="0M8-EI-0An"/>
-                            <constraint firstItem="L8P-ad-kra" firstAttribute="leading" secondItem="uBK-4Q-p7U" secondAttribute="leading" constant="-50" id="N0A-bZ-qlK"/>
-                            <constraint firstAttribute="trailing" secondItem="L8P-ad-kra" secondAttribute="trailing" constant="-50" id="bqs-i3-eLf"/>
-                            <constraint firstItem="L8P-ad-kra" firstAttribute="top" secondItem="uBK-4Q-p7U" secondAttribute="top" constant="-50" id="u1r-Oy-hIw"/>
+                            <constraint firstItem="XkR-ob-PlR" firstAttribute="top" secondItem="L8P-ad-kra" secondAttribute="bottom" id="0M8-EI-0An"/>
+                            <constraint firstItem="L8P-ad-kra" firstAttribute="leading" secondItem="uBK-4Q-p7U" secondAttribute="leading" id="N0A-bZ-qlK"/>
+                            <constraint firstAttribute="trailing" secondItem="L8P-ad-kra" secondAttribute="trailing" id="bqs-i3-eLf"/>
+                            <constraint firstItem="L8P-ad-kra" firstAttribute="top" secondItem="uBK-4Q-p7U" secondAttribute="top" id="u1r-Oy-hIw"/>
                         </constraints>
                     </view>
                     <connections>
@@ -832,7 +832,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QNK-gU-FHn" id="KEj-B7-QrR">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="handCoffeeBlur" translatesAutoresizingMaskIntoConstraints="NO" id="aNh-dB-fQf">

@@ -970,13 +970,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TECHNEX'18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="O17-ZS-ojF">
-                                        <rect key="frame" x="49" y="39" width="276" height="51"/>
+                                        <rect key="frame" x="58.5" y="39" width="257.5" height="51"/>
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toward Sustainibility" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="UOd-HC-rMi">
-                                        <rect key="frame" x="95" y="86" width="184" height="23"/>
+                                        <rect key="frame" x="105.5" y="86" width="163.5" height="23"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="23" id="Xom-Qf-5Id"/>
                                         </constraints>
@@ -1064,7 +1064,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2f7-gF-ugt" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="49" y="570" width="50" height="50"/>
+                                        <rect key="frame" x="58.5" y="570" width="50" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="xXK-MV-Sx8"/>
@@ -1098,7 +1098,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZs-td-GRs" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="195" y="570" width="50" height="50"/>
+                                        <rect key="frame" x="204.5" y="570" width="50" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="Po7-H9-Vx0"/>
@@ -1129,7 +1129,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTY-IQ-ZnC" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="123" y="572" width="50" height="50"/>
+                                        <rect key="frame" x="132.5" y="572" width="50" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="NBf-ie-Jua"/>
@@ -1197,7 +1197,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9X-Wp-Qwa" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="265" y="570" width="50" height="50"/>
+                                        <rect key="frame" x="274.5" y="570" width="40.5" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" red="0.25098039215686274" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" image="Twitter"/>
@@ -1250,7 +1250,6 @@
                                     <constraint firstItem="UOd-HC-rMi" firstAttribute="top" secondItem="YdV-xM-Nf7" secondAttribute="top" constant="86" id="RtJ-i1-mtZ"/>
                                     <constraint firstItem="IZs-td-GRs" firstAttribute="leading" secondItem="xTY-IQ-ZnC" secondAttribute="trailing" constant="22" id="SBH-AP-MLN"/>
                                     <constraint firstAttribute="trailing" secondItem="m9X-Wp-Qwa" secondAttribute="trailing" constant="60" id="UFA-JT-aQK"/>
-                                    <constraint firstItem="O17-ZS-ojF" firstAttribute="leading" secondItem="YdV-xM-Nf7" secondAttribute="leading" constant="49" id="XZs-Lf-fpU"/>
                                     <constraint firstItem="9wz-cH-WVM" firstAttribute="leading" secondItem="8da-lH-Bu5" secondAttribute="leading" id="dJi-MB-Ga4"/>
                                     <constraint firstItem="qdb-KT-CW1" firstAttribute="top" secondItem="ayp-KO-Abe" secondAttribute="bottom" constant="16" id="ekN-H1-EAk"/>
                                     <constraint firstItem="O17-ZS-ojF" firstAttribute="centerX" secondItem="YdV-xM-Nf7" secondAttribute="centerX" id="f3S-Qp-Jzr"/>
@@ -1258,7 +1257,6 @@
                                     <constraint firstItem="IZs-td-GRs" firstAttribute="top" secondItem="m9X-Wp-Qwa" secondAttribute="top" id="faC-r1-CWM"/>
                                     <constraint firstItem="xTY-IQ-ZnC" firstAttribute="leading" secondItem="2f7-gF-ugt" secondAttribute="trailing" constant="24" id="fdG-mW-Gww"/>
                                     <constraint firstItem="8da-lH-Bu5" firstAttribute="trailing" secondItem="Z1Z-gt-rLW" secondAttribute="trailing" id="frk-dn-2TC"/>
-                                    <constraint firstItem="UOd-HC-rMi" firstAttribute="leading" secondItem="YdV-xM-Nf7" secondAttribute="leading" constant="95" id="gCf-t1-qOT"/>
                                     <constraint firstItem="9wz-cH-WVM" firstAttribute="trailing" secondItem="8da-lH-Bu5" secondAttribute="trailing" id="miT-qt-rAq"/>
                                     <constraint firstItem="2f7-gF-ugt" firstAttribute="bottom" secondItem="IZs-td-GRs" secondAttribute="bottom" id="pVY-dL-l76"/>
                                     <constraint firstItem="8da-lH-Bu5" firstAttribute="leading" secondItem="Z1Z-gt-rLW" secondAttribute="leading" id="qs8-j0-g1Y"/>

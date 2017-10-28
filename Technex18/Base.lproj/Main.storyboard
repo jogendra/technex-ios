@@ -347,9 +347,6 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDQ-OM-tW5" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
                                                     <rect key="frame" x="8" y="14" width="170" height="45"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="170" id="yvi-Aq-Sms"/>
-                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <state key="normal" title="Generate QR">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -379,6 +376,7 @@
                                                 <constraint firstItem="mng-jq-Pj7" firstAttribute="leading" secondItem="Jx7-CM-ije" secondAttribute="leading" constant="128" id="5YT-wZ-8xG"/>
                                                 <constraint firstItem="mng-jq-Pj7" firstAttribute="top" secondItem="BDQ-OM-tW5" secondAttribute="bottom" constant="19" id="BFr-R4-lfq"/>
                                                 <constraint firstItem="mng-jq-Pj7" firstAttribute="centerY" secondItem="scj-yk-3LB" secondAttribute="centerY" id="BZi-Xm-c8V"/>
+                                                <constraint firstItem="BDQ-OM-tW5" firstAttribute="width" secondItem="ThF-ng-b52" secondAttribute="width" id="Dvd-be-be7"/>
                                                 <constraint firstItem="ThF-ng-b52" firstAttribute="trailing" secondItem="Jx7-CM-ije" secondAttribute="trailingMargin" id="EEV-bA-Eug"/>
                                                 <constraint firstItem="scj-yk-3LB" firstAttribute="bottom" secondItem="Jx7-CM-ije" secondAttribute="bottomMargin" id="EKj-Vg-Sni"/>
                                                 <constraint firstItem="ThF-ng-b52" firstAttribute="leading" secondItem="BDQ-OM-tW5" secondAttribute="trailing" constant="19" id="G70-Sq-s8Q"/>

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -970,7 +971,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TECHNEX'18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="O17-ZS-ojF">
-                                        <rect key="frame" x="58.5" y="39" width="257.5" height="51"/>
+                                        <rect key="frame" x="58.5" y="39" width="257.5" height="47"/>
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -984,197 +985,11 @@
                                         <color key="textColor" red="0.93307375907897949" green="0.96205323934555054" blue="0.85010069608688354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="qdb-KT-CW1" customClass="DesignableTextField" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="32" y="262" width="310" height="40"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="eKg-Kn-YmZ"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="lock"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="0.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wz-cH-WVM" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="32" y="320" width="310" height="40"/>
-                                        <color key="backgroundColor" red="0.0" green="0.51764705882352935" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="LOGIN">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="0.20000000000000001"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="loginButtonTapped:" destination="2dq-mq-kIE" eventType="touchUpInside" id="vgu-QF-qEq"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- OR -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8da-lH-Bu5">
-                                        <rect key="frame" x="32" y="368" width="310" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="6dq-vu-Qtb"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1Z-gt-rLW" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="32" y="406" width="310" height="40"/>
-                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="n7h-6r-PKM"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="REGISTER">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="0.20000000000000001"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <segue destination="Bpn-1t-jdd" kind="presentation" identifier="registerView" id="EcT-Nl-uN9"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2f7-gF-ugt" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="58.5" y="570" width="50" height="50"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="xXK-MV-Sx8"/>
-                                        </constraints>
-                                        <color key="tintColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="facebook"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
-                                                <real key="value" value="0.90000000000000002"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="fbButtonPressed:" destination="2dq-mq-kIE" eventType="touchUpInside" id="wNS-DY-fmw"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZs-td-GRs" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="204.5" y="570" width="50" height="50"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="Po7-H9-Vx0"/>
-                                        </constraints>
-                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" image="Instagramb&amp;w"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
-                                                <real key="value" value="0.90000000000000002"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTY-IQ-ZnC" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="132.5" y="572" width="50" height="50"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="NBf-ie-Jua"/>
-                                            <constraint firstAttribute="width" constant="50" id="SX1-gg-Xqg"/>
-                                        </constraints>
-                                        <color key="tintColor" red="0.8666666666666667" green="0.29411764705882354" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="google"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="0.8666666666666667" green="0.29411764705882354" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
-                                                <real key="value" value="0.90000000000000002"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJC-28-jk2">
-                                        <rect key="frame" x="32" y="463" width="310" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="2Dx-Dz-W5j"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
-                                        <state key="normal" title="Forgot Password? Reset Here">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="fwQ-FL-Ef9" kind="presentation" id="GEU-Oi-n9Z"/>
-                                        </connections>
-                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginRoundedDownFilled" translatesAutoresizingMaskIntoConstraints="NO" id="b1d-bw-TsI">
+                                        <rect key="frame" x="162" y="148" width="50" height="50"/>
+                                    </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="USERNAME" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ayp-KO-Abe" customClass="DesignableTextField" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="32" y="206" width="310" height="40"/>
+                                        <rect key="frame" x="32" y="206" width="311" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="1" alpha="0.90344071061643838" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1196,74 +1011,263 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9X-Wp-Qwa" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
-                                        <rect key="frame" x="274.5" y="570" width="40.5" height="50"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="qdb-KT-CW1" customClass="DesignableTextField" customModule="Technex18" customModuleProvider="target">
+                                        <rect key="frame" x="32" y="262" width="311" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                        <color key="tintColor" red="0.25098039215686274" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" image="Twitter"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="lock"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wz-cH-WVM" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
+                                        <rect key="frame" x="32" y="320" width="311" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.51764705882352935" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="LOGIN">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="0.20000000000000001"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                                 <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
-                                                <real key="value" value="0.90000000000000002"/>
+                                                <real key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="loginButtonTapped:" destination="2dq-mq-kIE" eventType="touchUpInside" id="vgu-QF-qEq"/>
+                                        </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginRoundedDownFilled" translatesAutoresizingMaskIntoConstraints="NO" id="b1d-bw-TsI">
-                                        <rect key="frame" x="162" y="148" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- OR -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8da-lH-Bu5">
+                                        <rect key="frame" x="32" y="368" width="311" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="6dq-vu-Qtb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1Z-gt-rLW" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
+                                        <rect key="frame" x="32" y="406" width="311" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="REGISTER">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.20000000000000001"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Bpn-1t-jdd" kind="presentation" identifier="registerView" id="EcT-Nl-uN9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJC-28-jk2">
+                                        <rect key="frame" x="32" y="463" width="311" height="40"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <state key="normal" title="Forgot Password? Reset Here">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="fwQ-FL-Ef9" kind="presentation" id="GEU-Oi-n9Z"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rWB-Er-OAF" userLabel="Social media container">
+                                        <rect key="frame" x="51" y="573" width="272" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2f7-gF-ugt" userLabel="FB" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="2f7-gF-ugt" secondAttribute="height" multiplier="1:1" id="PMi-0d-NHx"/>
+                                                    <constraint firstAttribute="width" constant="50" id="xXK-MV-Sx8"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" image="facebook"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
+                                                        <real key="value" value="0.90000000000000002"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="fbButtonPressed:" destination="2dq-mq-kIE" eventType="touchUpInside" id="wNS-DY-fmw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTY-IQ-ZnC" userLabel="Google" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
+                                                <rect key="frame" x="74" y="0.0" width="50" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" red="0.8666666666666667" green="0.29411764705882354" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" image="google"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.8666666666666667" green="0.29411764705882354" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
+                                                        <real key="value" value="0.90000000000000002"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZs-td-GRs" userLabel="Instagram" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
+                                                <rect key="frame" x="148" y="0.0" width="50" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <state key="normal" image="Instagramb&amp;w"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
+                                                        <real key="value" value="0.90000000000000002"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9X-Wp-Qwa" userLabel="Twitter" customClass="DesignableButton" customModule="Technex18" customModuleProvider="target">
+                                                <rect key="frame" x="222" y="0.0" width="50" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" red="0.25098039215686274" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" image="Twitter"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="animate" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
+                                                        <real key="value" value="0.90000000000000002"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="2f7-gF-ugt" firstAttribute="leading" secondItem="rWB-Er-OAF" secondAttribute="leading" id="2VL-p4-GFZ"/>
+                                            <constraint firstItem="xTY-IQ-ZnC" firstAttribute="top" secondItem="rWB-Er-OAF" secondAttribute="top" id="2y1-TF-RPb"/>
+                                            <constraint firstItem="m9X-Wp-Qwa" firstAttribute="top" secondItem="rWB-Er-OAF" secondAttribute="top" id="Dvh-YD-8D2"/>
+                                            <constraint firstItem="xTY-IQ-ZnC" firstAttribute="leading" secondItem="2f7-gF-ugt" secondAttribute="trailing" constant="24" id="FkL-Oi-Qgf"/>
+                                            <constraint firstAttribute="bottom" secondItem="m9X-Wp-Qwa" secondAttribute="bottom" id="GUM-Aw-EPN"/>
+                                            <constraint firstAttribute="bottom" secondItem="IZs-td-GRs" secondAttribute="bottom" id="HlJ-sz-Xl8"/>
+                                            <constraint firstItem="IZs-td-GRs" firstAttribute="leading" secondItem="xTY-IQ-ZnC" secondAttribute="trailing" constant="24" id="MO8-Ty-7HG"/>
+                                            <constraint firstAttribute="bottom" secondItem="xTY-IQ-ZnC" secondAttribute="bottom" id="XZI-Fg-N7e"/>
+                                            <constraint firstItem="IZs-td-GRs" firstAttribute="width" secondItem="2f7-gF-ugt" secondAttribute="width" id="agG-1M-4TQ"/>
+                                            <constraint firstItem="xTY-IQ-ZnC" firstAttribute="width" secondItem="2f7-gF-ugt" secondAttribute="width" id="gat-s2-wr8"/>
+                                            <constraint firstAttribute="trailing" secondItem="m9X-Wp-Qwa" secondAttribute="trailing" id="j5U-ou-Vj3"/>
+                                            <constraint firstItem="m9X-Wp-Qwa" firstAttribute="leading" secondItem="IZs-td-GRs" secondAttribute="trailing" constant="24" id="s4R-38-DXW"/>
+                                            <constraint firstItem="m9X-Wp-Qwa" firstAttribute="width" secondItem="2f7-gF-ugt" secondAttribute="width" id="v8T-bp-mW5"/>
+                                            <constraint firstItem="IZs-td-GRs" firstAttribute="top" secondItem="rWB-Er-OAF" secondAttribute="top" id="vmQ-sE-o4X"/>
+                                            <constraint firstItem="2f7-gF-ugt" firstAttribute="top" secondItem="rWB-Er-OAF" secondAttribute="top" id="xkn-Vo-r8x"/>
+                                            <constraint firstAttribute="bottom" secondItem="2f7-gF-ugt" secondAttribute="bottom" id="xoI-4X-wMX"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.57534246575342463" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="2f7-gF-ugt" firstAttribute="top" secondItem="LJC-28-jk2" secondAttribute="bottom" constant="67" id="2aO-NH-4yu"/>
-                                    <constraint firstItem="UOd-HC-rMi" firstAttribute="centerX" secondItem="ayp-KO-Abe" secondAttribute="centerX" id="2tL-PX-M6K"/>
                                     <constraint firstItem="qdb-KT-CW1" firstAttribute="leading" secondItem="9wz-cH-WVM" secondAttribute="leading" id="36b-On-0cn"/>
-                                    <constraint firstItem="2f7-gF-ugt" firstAttribute="top" secondItem="IZs-td-GRs" secondAttribute="top" id="3SN-lx-UlV"/>
-                                    <constraint firstItem="ayp-KO-Abe" firstAttribute="top" secondItem="O17-ZS-ojF" secondAttribute="bottom" constant="116" id="4e0-7d-0K9"/>
-                                    <constraint firstItem="Z1Z-gt-rLW" firstAttribute="top" secondItem="9wz-cH-WVM" secondAttribute="bottom" constant="46" id="60L-4Q-82V"/>
                                     <constraint firstItem="ayp-KO-Abe" firstAttribute="trailing" secondItem="qdb-KT-CW1" secondAttribute="trailing" id="6B2-hp-oT7"/>
                                     <constraint firstItem="O17-ZS-ojF" firstAttribute="top" secondItem="YdV-xM-Nf7" secondAttribute="top" constant="39" id="7CS-Nq-ZkY"/>
+                                    <constraint firstItem="rWB-Er-OAF" firstAttribute="top" secondItem="LJC-28-jk2" secondAttribute="bottom" constant="70" id="9cd-MJ-BZv"/>
+                                    <constraint firstItem="b1d-bw-TsI" firstAttribute="top" secondItem="UOd-HC-rMi" secondAttribute="bottom" constant="39" id="BH4-IA-DLR"/>
                                     <constraint firstItem="Z1Z-gt-rLW" firstAttribute="leading" secondItem="LJC-28-jk2" secondAttribute="leading" id="CCq-ab-OHt"/>
-                                    <constraint firstItem="m9X-Wp-Qwa" firstAttribute="leading" secondItem="IZs-td-GRs" secondAttribute="trailing" constant="20" id="G7z-TU-j0d"/>
+                                    <constraint firstItem="b1d-bw-TsI" firstAttribute="centerX" secondItem="UOd-HC-rMi" secondAttribute="centerX" id="FJ9-83-s53"/>
                                     <constraint firstItem="ayp-KO-Abe" firstAttribute="leading" secondItem="YdV-xM-Nf7" secondAttribute="leading" constant="32" id="H42-pY-8M0"/>
+                                    <constraint firstItem="9wz-cH-WVM" firstAttribute="height" secondItem="ayp-KO-Abe" secondAttribute="height" id="Ici-9f-VvP"/>
                                     <constraint firstItem="LJC-28-jk2" firstAttribute="top" secondItem="Z1Z-gt-rLW" secondAttribute="bottom" constant="17" id="JmG-Cm-SqU"/>
                                     <constraint firstItem="qdb-KT-CW1" firstAttribute="trailing" secondItem="9wz-cH-WVM" secondAttribute="trailing" id="LaB-vZ-VXM"/>
-                                    <constraint firstItem="xTY-IQ-ZnC" firstAttribute="top" secondItem="LJC-28-jk2" secondAttribute="bottom" constant="69" id="LcI-QL-Ijp"/>
-                                    <constraint firstItem="O17-ZS-ojF" firstAttribute="leading" secondItem="2f7-gF-ugt" secondAttribute="leading" id="N6d-bO-KjW"/>
+                                    <constraint firstItem="Z1Z-gt-rLW" firstAttribute="height" secondItem="ayp-KO-Abe" secondAttribute="height" id="Oig-Zd-dss"/>
                                     <constraint firstItem="Z1Z-gt-rLW" firstAttribute="top" secondItem="8da-lH-Bu5" secondAttribute="bottom" constant="8" id="Omq-CB-zFZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="ayp-KO-Abe" secondAttribute="trailing" constant="32" id="QmF-BK-15u"/>
                                     <constraint firstItem="UOd-HC-rMi" firstAttribute="top" secondItem="YdV-xM-Nf7" secondAttribute="top" constant="86" id="RtJ-i1-mtZ"/>
-                                    <constraint firstItem="IZs-td-GRs" firstAttribute="leading" secondItem="xTY-IQ-ZnC" secondAttribute="trailing" constant="22" id="SBH-AP-MLN"/>
-                                    <constraint firstAttribute="trailing" secondItem="m9X-Wp-Qwa" secondAttribute="trailing" constant="60" id="UFA-JT-aQK"/>
                                     <constraint firstItem="9wz-cH-WVM" firstAttribute="leading" secondItem="8da-lH-Bu5" secondAttribute="leading" id="dJi-MB-Ga4"/>
                                     <constraint firstItem="qdb-KT-CW1" firstAttribute="top" secondItem="ayp-KO-Abe" secondAttribute="bottom" constant="16" id="ekN-H1-EAk"/>
                                     <constraint firstItem="O17-ZS-ojF" firstAttribute="centerX" secondItem="YdV-xM-Nf7" secondAttribute="centerX" id="f3S-Qp-Jzr"/>
-                                    <constraint firstItem="8da-lH-Bu5" firstAttribute="top" secondItem="qdb-KT-CW1" secondAttribute="bottom" constant="66" id="fUD-DB-fS0"/>
-                                    <constraint firstItem="IZs-td-GRs" firstAttribute="top" secondItem="m9X-Wp-Qwa" secondAttribute="top" id="faC-r1-CWM"/>
-                                    <constraint firstItem="xTY-IQ-ZnC" firstAttribute="leading" secondItem="2f7-gF-ugt" secondAttribute="trailing" constant="24" id="fdG-mW-Gww"/>
+                                    <constraint firstItem="8da-lH-Bu5" firstAttribute="top" secondItem="9wz-cH-WVM" secondAttribute="bottom" constant="8" id="fqb-jS-q1E"/>
                                     <constraint firstItem="8da-lH-Bu5" firstAttribute="trailing" secondItem="Z1Z-gt-rLW" secondAttribute="trailing" id="frk-dn-2TC"/>
                                     <constraint firstItem="9wz-cH-WVM" firstAttribute="trailing" secondItem="8da-lH-Bu5" secondAttribute="trailing" id="miT-qt-rAq"/>
-                                    <constraint firstItem="2f7-gF-ugt" firstAttribute="bottom" secondItem="IZs-td-GRs" secondAttribute="bottom" id="pVY-dL-l76"/>
+                                    <constraint firstItem="LJC-28-jk2" firstAttribute="height" secondItem="Z1Z-gt-rLW" secondAttribute="height" id="oiL-Mc-ttP"/>
+                                    <constraint firstItem="rWB-Er-OAF" firstAttribute="centerX" secondItem="YdV-xM-Nf7" secondAttribute="centerX" id="qE9-xx-8W2"/>
                                     <constraint firstItem="8da-lH-Bu5" firstAttribute="leading" secondItem="Z1Z-gt-rLW" secondAttribute="leading" id="qs8-j0-g1Y"/>
                                     <constraint firstItem="ayp-KO-Abe" firstAttribute="top" secondItem="UOd-HC-rMi" secondAttribute="bottom" constant="97" id="s5t-QE-g9N"/>
-                                    <constraint firstItem="IZs-td-GRs" firstAttribute="bottom" secondItem="m9X-Wp-Qwa" secondAttribute="bottom" id="sxR-N5-B8f"/>
                                     <constraint firstItem="O17-ZS-ojF" firstAttribute="centerX" secondItem="UOd-HC-rMi" secondAttribute="centerX" id="tSl-fv-vRu"/>
                                     <constraint firstItem="Z1Z-gt-rLW" firstAttribute="trailing" secondItem="LJC-28-jk2" secondAttribute="trailing" id="xjW-HG-R2g"/>
+                                    <constraint firstItem="qdb-KT-CW1" firstAttribute="height" secondItem="ayp-KO-Abe" secondAttribute="height" id="yxb-nu-ace"/>
                                     <constraint firstItem="9wz-cH-WVM" firstAttribute="top" secondItem="qdb-KT-CW1" secondAttribute="bottom" constant="18" id="zDN-le-AK6"/>
                                     <constraint firstItem="ayp-KO-Abe" firstAttribute="leading" secondItem="qdb-KT-CW1" secondAttribute="leading" id="zK6-Zd-TM1"/>
                                 </constraints>
@@ -1289,7 +1293,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lT1-gc-9eM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1501.875" y="158.75"/>
+            <point key="canvasLocation" x="1501.5999999999999" y="157.87106446776613"/>
         </scene>
         <!--Register Page View Controller-->
         <scene sceneID="8m3-v2-ZE4">

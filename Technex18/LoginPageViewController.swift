@@ -60,8 +60,8 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         }
         
         Auth.auth().signIn(withEmail: userEmail, password: userPassword, completion: {(user,error) in
-            if error != nil{
-            
+            if let error = error {
+                
                 print(error)
                 return
             }

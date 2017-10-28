@@ -87,7 +87,7 @@ class RegisterPageViewController: UIViewController {
         
         Auth.auth().createUser(withEmail: userEmail, password: userPassword, completion: {(user: User?, error) in
             
-            if error != nil{
+            if let error = error{
                 
                 print(error)
                 return
@@ -101,7 +101,7 @@ class RegisterPageViewController: UIViewController {
             let values = ["name":userName, "email":userEmail]
             userReference.updateChildValues(values, withCompletionBlock: {(err, ref) in
                 
-                if err != nil{
+                if let err = err {
                 
                     print(err)
                     return

@@ -49,12 +49,12 @@ class RegisterPageViewController: UIViewController {
         
         
         //change color of placeholder
-        userNameTextField.attributedPlaceholder = NSAttributedString(string: "FULL NAME", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
-        userEmailIdTextField.attributedPlaceholder = NSAttributedString(string: "YOUR EMAIL ID", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
-        userCollegeTextField.attributedPlaceholder = NSAttributedString(string: "COLLEGE NAME", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
-        userYearTextField.attributedPlaceholder = NSAttributedString(string: "YEAR", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
-        registerPasswordTextField.attributedPlaceholder = NSAttributedString(string: "CREATE PASSWORD", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
-        repeatPasswordTextField.attributedPlaceholder = NSAttributedString(string: "REPEAT PASSWORD", attributes: [NSForegroundColorAttributeName: UIColor.lightGray] );
+        userNameTextField.attributedPlaceholder = NSAttributedString(string: "FULL NAME", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
+        userEmailIdTextField.attributedPlaceholder = NSAttributedString(string: "YOUR EMAIL ID", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
+        userCollegeTextField.attributedPlaceholder = NSAttributedString(string: "COLLEGE NAME", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
+        userYearTextField.attributedPlaceholder = NSAttributedString(string: "YEAR", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
+        registerPasswordTextField.attributedPlaceholder = NSAttributedString(string: "CREATE PASSWORD", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
+        repeatPasswordTextField.attributedPlaceholder = NSAttributedString(string: "REPEAT PASSWORD", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray] );
         
         registerButton.layer.cornerRadius = 5.0
         
@@ -75,7 +75,7 @@ class RegisterPageViewController: UIViewController {
         
     }
     
-    func handleRegistration(){
+    @objc func handleRegistration(){
     
         guard let userName = userNameTextField.text, let userEmail = userEmailIdTextField.text,let
             userPassword = registerPasswordTextField.text

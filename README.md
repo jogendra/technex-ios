@@ -1,6 +1,4 @@
 # technex-ios
-[![CI Status](http://img.shields.io/travis/imjog/JSButton.svg?style=flat)](https://travis-ci.org/imjog/JSButton)
-[![Version](https://img.shields.io/cocoapods/v/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
 [![License](https://img.shields.io/cocoapods/l/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
 [![Platform](https://img.shields.io/cocoapods/p/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)

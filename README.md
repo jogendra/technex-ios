@@ -10,7 +10,7 @@
 
 iOS app for Technex, IIT(BHU) Varanasi. This project is closed before completion for some reasons. You can use this app for learning purpose. Hope this will help you to understand more of ios development. This project is buited in Xocde 8 and used swift 3, **now migrated to latest version Swift 4 and Xcode 9.1**. Before running app make sure cocoapods is installed, if not then install pods and run.
 
-You can use this app as a templet of any event related app.
+**You can use this app as a templet of any event related app.**
 
 ## Screenshots
 <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/gifs/gif-technex-ios-1.gif" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/gifs/gif-technex-ios-2.gif" width="250">

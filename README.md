@@ -10,6 +10,8 @@ iOS app for Technex, IIT(BHU) Varanasi. This project is closed before completion
 
 **You can use this app as a templet of any event related app.**
 
+Watch App Preview [Here](https://www.youtube.com/watch?v=C5lDjWOS4Po).
+
 ## Screenshots
 <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/gifs/gif-technex-ios-1.gif" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/gifs/gif-technex-ios-2.gif" width="250">
 <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/1.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/2.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/3.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/4.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/5.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/6.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/7.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/8.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/9.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/10.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/11.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/12.png" width="250"> <img src="https://github.com/imjog/technex-ios/blob/master/Technex18/Screenshots/13.png" width="250">

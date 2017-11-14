@@ -35,4 +35,4 @@ Jogendra Singh, jogendra.singh.jog@gmail.com
 
 ## License
 
-Technex18 is available under the MIT license. See the LICENSE file for more info.
+Technex18 is available under the [MIT license](https://github.com/imjog/technex-ios/blob/master/LICENSE). See the LICENSE file for more info.

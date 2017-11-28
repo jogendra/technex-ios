@@ -31,7 +31,7 @@ $ open Technex18.xcworkspace
 
 ## Author
 
-Jogendra Singh, jogendra.singh.jog@gmail.com
+[Jogendra Singh](https://github.com/imjog), jogendra.singh.jog@gmail.com
 
 ## License
 

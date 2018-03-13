@@ -3,7 +3,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 [![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://jogendrasingh.me)
 [![HitCount](http://hits.dwyl.io/imjog/technex-ios.svg)](http://hits.dwyl.io/imjog/technex-ios)
 
 iOS app for Technex, IIT(BHU) Varanasi. This project is closed before completion for some reasons. You can use this app for learning purpose. Hope this will help you to understand more of ios development. This project is buited in Xocde 8 and used swift 3, **now migrated to latest version Swift 4 and Xcode 9.1**. Before running app make sure cocoapods is installed, if not then install pods and run.
@@ -31,7 +30,7 @@ $ open Technex18.xcworkspace
 
 ## Author
 
-[Jogendra Singh](https://github.com/imjog), jogendra.singh.jog@gmail.com
+[Jogendra Singh](https://github.com/imjog), jogendra.iitbhu@gmail.com
 
 ## License
 

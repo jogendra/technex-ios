@@ -12,10 +12,20 @@ iOS app for Technex, IIT(BHU) Varanasi. This project is closed before completion
 Watch App Preview [Here](https://www.youtube.com/watch?v=C5lDjWOS4Po).
 
 ## Setup the Project
-
-```bash
+1.
+```
+$ git clone https://github.com/imjog/technex-ios.git
+```
+2.
+```
 $ cd Technex18
+```
+3.
+```
 $ pod install
+```
+4.
+```
 $ open Technex18.xcworkspace
 ```
 
